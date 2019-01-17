@@ -1,0 +1,139 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2d3c49;
+    font-weight: 100;
+}
+
+html {
+    height: 100%;
+}
+
+#jumbotronContent {
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+    0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+#jumbotronContent h3 {
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+hr {
+    width: 600px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.bgimage {
+    background: url("background.jpg") center/cover;
+}
+
+.no-pads-no-margs {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+    margin: 1.3em;
+    justify-content: flex-end;
+}
+
+.grid-even {
+    justify-content: space-evenly;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.code {
+    text-align: center;
+}
+
+.projects-title {
+    color: #7d97ad;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-project {
+    position: relative;
+    float: left;
+    max-width: 550px;
+    height: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#projects {
+    margin: 1em;
+}
+
+@media screen and (max-width: 600px) {
+
+    #jumbotronContent h3 {
+        font-weight: 500;
+        font-size: 1.3em;
+    }
+
+    #jumbotronContent h4 {
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+
+    #jumbotronContent h5 {
+        font-weight: 500;
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    #jumbotronContent h3 {
+        font-weight: 500;
+        font-size: 0.8em;
+    }
+
+    #jumbotronContent h4 {
+        font-weight: 400;
+        font-size: 0.6em;
+    }
+
+    #jumbotronContent h5 {
+        font-weight: 300;
+        font-size: 0.5em;
+    }
+}
+
+
+
+
+
